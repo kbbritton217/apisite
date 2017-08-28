@@ -1,0 +1,15 @@
+{
+  "name": "apisite",
+  "version": "1.0.0",
+  "description": "site to see info about cool Anime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kaylea Britton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

@@ -1,0 +1,31 @@
+body {
+	background-image: url('https://myanimelist.cdn-dena.com/images/anime/5/18179l.jpg');
+	background-color: #79a6d2;
+	font-family: 'Oswald', sans-serif;
+	margin: auto;
+	color: #ccccff;
+}
+.head {
+	text-align: center;
+}
+#main {
+	font-size: 18px;
+}
+.animeImage {
+	margin-left: 125px;
+	margin-top: 75px;
+	width: 25%;
+}
+
+
+
+@media only screen and (min-width: 981px) and (max-width: 1196px) {
+	.animeImage {
+		margin-left: 125px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.animeImage {
+		margin-left: 250px;
+	}
+}
