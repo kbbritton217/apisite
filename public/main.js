@@ -30,11 +30,7 @@ $(document).ready(function(){
 				} //console.log(c.name)
 			})
 
-			// charObj.char.addEventListener('click', function(event){
-			// 	if (event.target !== this) {
-			// 		document.getElementById("Image").src = imgObj.img;
-			// 	}
-			// })
+	
 
 
 		//		PSUEDO CODE
@@ -49,9 +45,7 @@ $(document).ready(function(){
 			$("td").eq(6).attr('id', 'six');
 			$("td").eq(7).attr('id', 'seven');
 
-			// $('#zero').on('click', function(){
-			// 	$('#Image').attr('src', imgObj.img[0])
-			// })
+			
 			$('#rowZero').on('click', function(){
 				$('#Image').attr('src', "https://myanimelist.cdn-dena.com/images/anime/7/59441l.jpg")
 			})
