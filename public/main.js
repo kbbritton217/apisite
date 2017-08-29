@@ -3,7 +3,7 @@
 $(document).ready(function(){
 		$.ajax({
 			type: 'GET',
-			url: 'http://jikan.me/api/anime/6702/characters_staff'
+			url: 'https://jikan.me/api/anime/6702/characters_staff'
 		}).done(function(character){
 			//console.log(character.character)
 
